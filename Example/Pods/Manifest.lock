@@ -1,0 +1,16 @@
+PODS:
+  - ZDSMPlugin (0.1.0)
+
+DEPENDENCIES:
+  - ZDSMPlugin (from `../`)
+
+EXTERNAL SOURCES:
+  ZDSMPlugin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDSMPlugin: 5f56355eb37e07b5d7b877892b38129a2d8c8bbf
+
+PODFILE CHECKSUM: d5e6bd08a4c529c78aceed103ff13182eaa09983
+
+COCOAPODS: 1.0.1

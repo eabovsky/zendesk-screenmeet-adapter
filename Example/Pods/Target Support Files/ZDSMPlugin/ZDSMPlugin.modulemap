@@ -1,0 +1,6 @@
+framework module ZDSMPlugin {
+  umbrella header "ZDSMPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
