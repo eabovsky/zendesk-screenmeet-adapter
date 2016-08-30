@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZDSMPlugin_Example' do
+  pod 'ZDSMPlugin', :path => '../'
+
+  target 'ZDSMPlugin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
