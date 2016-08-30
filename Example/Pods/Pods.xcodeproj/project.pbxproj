@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51200D23CE9E074933E01238F8D1F943 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E9F1D0C0CE3A8502FEE42AA424DE9 /* ReplaceMe.m */; };
 		5DF3143FCAF0BC81D7DEF89BD2608B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		5F990A49CDAD043EF05A4C1BC5378954 /* Pods-ZDSMPlugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E8A8C0644B4A91203159230760C24E /* Pods-ZDSMPlugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		602D4128AFA8BECD0BE8813E2D8433D7 /* Pods-ZDSMPlugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A675864585EC026EFB4EAD6C2B329DC4 /* Pods-ZDSMPlugin_Tests-dummy.m */; };
@@ -30,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020E9F1D0C0CE3A8502FEE42AA424DE9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		16E8A8C0644B4A91203159230760C24E /* Pods-ZDSMPlugin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDSMPlugin_Tests-umbrella.h"; sourceTree = "<group>"; };
 		225FE1C7B3F8CBF2380EA59A1B6228A0 /* ZDSMPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDSMPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		235D428D2E2E044B43798F52C47FB7A0 /* ZDSMPlugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDSMPlugin-umbrella.h"; sourceTree = "<group>"; };
@@ -146,6 +144,28 @@
 			path = "Target Support Files/Pods-ZDSMPlugin_Tests";
 			sourceTree = "<group>";
 		};
+		70FE830E1D7566C700054355 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		70FE830F1D7566D800054355 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		70FE83101D75672300054355 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +180,10 @@
 		96493EF525F16B5335DF6A45AE9EAEA5 /* ZDSMPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				CB5B9BAD59FBC37061C19CC28A0D3668 /* Classes */,
+				70FE83101D75672300054355 /* Assets */,
+				70FE830E1D7566C700054355 /* Controllers */,
+				CB5B9BAD59FBC37061C19CC28A0D3668 /* Views */,
+				70FE830F1D7566D800054355 /* Vendors */,
 			);
 			path = ZDSMPlugin;
 			sourceTree = "<group>";
@@ -190,11 +213,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB5B9BAD59FBC37061C19CC28A0D3668 /* Classes */ = {
+		CB5B9BAD59FBC37061C19CC28A0D3668 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				020E9F1D0C0CE3A8502FEE42AA424DE9 /* ReplaceMe.m */,
 			);
+			name = Views;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -345,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51200D23CE9E074933E01238F8D1F943 /* ReplaceMe.m in Sources */,
 				AFAC250A99DAE790A536ECB3E6C0047E /* ZDSMPlugin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

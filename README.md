@@ -22,7 +22,9 @@ pod "ZDSMPlugin"
 
 ## Author
 
+Eugene Abovsky, eugene@projector.is
 Adrian Cayaco, acayaco@stratpoint.com
+Mylene Bayan, mbayan@stratpoint.com
 
 ## License
 

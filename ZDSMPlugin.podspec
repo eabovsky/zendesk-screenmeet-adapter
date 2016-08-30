@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZDSMPlugin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZDSMPlugin.'
+  s.summary          = 'A Zendesk plugin to use and access the ScreenMeet SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,31 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
+#   * Add long description of the pod here.
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+---------------------------------------------------------------
+---------------------------------------------------------------
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ZDSMPlugin'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/eabovsky/zendesk-screenmeet-adapter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Adrian Cayaco' => 'acayaco@stratpoint.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ZDSMPlugin.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Eugene Abovsky' => 'eugene@projector.is', 'Adrian Cayaco' => 'acayaco@stratpoint.com', 'Mylene Bayan' => 'mbayan@stratpoint.com' }
+  s.source           = { :git => 'https://github.com/eabovsky/zendesk-screenmeet-adapter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZDSMPlugin/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZDSMPlugin' => ['ZDSMPlugin/Assets/*.png']
-  # }
+  s.source_files = 'ZDSMPlugin/**/*.{h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+    'ZDSMPlugin' => ['ZDSMPlugin/**/*.xib'],
+    'ZDSMPlugin' => ['ZDSMPlugin/Assets/*.png'],
+    'ZDSMPlugin' => ['ZDSMPlugin/Vendors/JSQMessagesViewController/Assets/JSQMessagesAssets.bundle']
+  }
+
+  s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'QuartzCore', 'CoreGraphics', 'ImageIO', 'Foundation'
+
+  s.dependency 'JSQSystemSoundPlayer', '~> 4.4.0'
+  s.dependency 'UIActivityIndicator-for-SDWebImage', '~> 1.2'
+  s.dependency 'MBProgressHUD', '~> 1.0'
+
 end
