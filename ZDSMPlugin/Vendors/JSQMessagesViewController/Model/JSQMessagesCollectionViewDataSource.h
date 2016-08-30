@@ -152,4 +152,15 @@
  */
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForCellBottomLabelAtIndexPath:(NSIndexPath *)indexPath;
 
+/**
+ *  Aks the data source for the url to be loaded in the `avatarImageView` for the the specified
+ *  message data item at indexPath in the collectionView. This is primarily used to support asynchronous image loading for the avatar.
+ *
+ *  @param collectionView The collection view requesting this information.
+ *  @param indexPath      The index path that specifies the location of the item.
+ *
+ *  @return The specified url for the user's avatar. You may return `nil` from this method if you do not want to get the avatar from a url.
+ */
+- (NSURL *)collectionView:(JSQMessagesCollectionView *)collectionView avatarImageUrlForItemAtIndexPath:(NSIndexPath *)indexPath;
+
 @end

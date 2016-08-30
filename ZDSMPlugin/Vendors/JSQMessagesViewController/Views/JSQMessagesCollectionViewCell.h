@@ -20,6 +20,7 @@
 
 #import "JSQMessagesLabel.h"
 #import "JSQMessagesCellTextView.h"
+#import "SMCircularImageView.h"
 
 @class JSQMessagesCollectionViewCell;
 
@@ -140,7 +141,7 @@
 /**
  *  Returns the avatar image view of the cell that is responsible for displaying avatar images.
  */
-@property (weak, nonatomic, readonly) UIImageView *avatarImageView;
+@property (weak, nonatomic, readonly) SMCircularImageView *avatarImageView;
 
 /**
  *  Returns the avatar container view of the cell. This view is the superview of the cell's avatarImageView.

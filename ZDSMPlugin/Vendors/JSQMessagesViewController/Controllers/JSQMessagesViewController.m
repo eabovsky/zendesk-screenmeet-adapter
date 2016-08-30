@@ -40,6 +40,7 @@
 #import "NSBundle+JSQMessages.h"
 
 #import <objc/runtime.h>
+#import <UIActivityIndicator-for-SDWebImage/UIImageView+UIActivityIndicatorForSDWebImage.h>
 
 
 // Fixes rdar://26295020
@@ -599,6 +600,9 @@ JSQMessagesKeyboardControllerDelegate>
                 cell.avatarImageView.image = avatarImage;
                 cell.avatarImageView.highlightedImage = [avatarImageDataSource avatarHighlightedImage];
             }
+        } else {
+            NSURL *avatarUrl = [collectionView.dataSource collectionView:collectionView avatarImageUrlForItemAtIndexPath:indexPath];
+            [cell.avatarImageView setImageWithURL:avatarUrl placeholderImage:[UIImage imageNamed:@"avatar_placeholder"] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
         }
     }
 
@@ -606,7 +610,8 @@ JSQMessagesKeyboardControllerDelegate>
     cell.messageBubbleTopLabel.attributedText = [collectionView.dataSource collectionView:collectionView attributedTextForMessageBubbleTopLabelAtIndexPath:indexPath];
     cell.cellBottomLabel.attributedText = [collectionView.dataSource collectionView:collectionView attributedTextForCellBottomLabelAtIndexPath:indexPath];
 
-    CGFloat bubbleTopLabelInset = (avatarImageDataSource != nil) ? 60.0f : 15.0f;
+//    CGFloat bubbleTopLabelInset = (avatarImageDataSource != nil) ? 60.0f : 15.0f;
+    CGFloat bubbleTopLabelInset = needsAvatar ? 40.0f : 15.0f;;
 
     if (isOutgoingMessage) {
         cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, bubbleTopLabelInset);

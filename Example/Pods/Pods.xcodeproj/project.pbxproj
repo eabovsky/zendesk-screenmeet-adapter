@@ -166,6 +166,13 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
+		70FE83A61D757F5E00054355 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				70FE83101D75672300054355 /* Assets */,
+				70FE83A61D757F5E00054355 /* Categories */,
 				70FE830E1D7566C700054355 /* Controllers */,
 				CB5B9BAD59FBC37061C19CC28A0D3668 /* Views */,
 				70FE830F1D7566D800054355 /* Vendors */,

@@ -1,6 +1,5 @@
 # ZDSMPlugin
 
-[![CI Status](http://img.shields.io/travis/Adrian Cayaco/ZDSMPlugin.svg?style=flat)](https://travis-ci.org/Adrian Cayaco/ZDSMPlugin)
 [![Version](https://img.shields.io/cocoapods/v/ZDSMPlugin.svg?style=flat)](http://cocoapods.org/pods/ZDSMPlugin)
 [![License](https://img.shields.io/cocoapods/l/ZDSMPlugin.svg?style=flat)](http://cocoapods.org/pods/ZDSMPlugin)
 [![Platform](https://img.shields.io/cocoapods/p/ZDSMPlugin.svg?style=flat)](http://cocoapods.org/pods/ZDSMPlugin)
@@ -20,11 +19,13 @@ it, simply add the following line to your Podfile:
 pod "ZDSMPlugin"
 ```
 
-## Author
+## Authors
 
-Eugene Abovsky, eugene@projector.is
-Adrian Cayaco, acayaco@stratpoint.com
-Mylene Bayan, mbayan@stratpoint.com
+Eugene Abovsky: eugene@projector.is
+
+Adrian Cayaco: acayaco@stratpoint.com
+
+Mylene Bayan: mbayan@stratpoint.com
 
 ## License
 
