@@ -102,6 +102,18 @@
 		700F617B1D76AF8C00ED7A68 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 700F611C1D76AF8C00ED7A68 /* README.md */; };
 		700F617C1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F611E1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.h */; };
 		700F617D1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F611F1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.m */; };
+		700F61881D76BBB000ED7A68 /* ScreenMeetChatContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F61821D76BBB000ED7A68 /* ScreenMeetChatContainer.h */; };
+		700F61891D76BBB000ED7A68 /* ScreenMeetChatContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F61831D76BBB000ED7A68 /* ScreenMeetChatContainer.m */; };
+		700F618A1D76BBB000ED7A68 /* ScreenMeetChatWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F61841D76BBB000ED7A68 /* ScreenMeetChatWidget.h */; };
+		700F618B1D76BBB000ED7A68 /* ScreenMeetChatWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F61851D76BBB000ED7A68 /* ScreenMeetChatWidget.m */; };
+		700F618C1D76BBB000ED7A68 /* ScreenMeetToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F61861D76BBB000ED7A68 /* ScreenMeetToast.h */; };
+		700F618D1D76BBB000ED7A68 /* ScreenMeetToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F61871D76BBB000ED7A68 /* ScreenMeetToast.m */; };
+		700F61961D76BBBF00ED7A68 /* SMAccountViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F618E1D76BBBF00ED7A68 /* SMAccountViewController.h */; };
+		700F61971D76BBBF00ED7A68 /* SMAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F618F1D76BBBF00ED7A68 /* SMAccountViewController.m */; };
+		700F61981D76BBBF00ED7A68 /* SMMessagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F61911D76BBBF00ED7A68 /* SMMessagesViewController.h */; };
+		700F61991D76BBBF00ED7A68 /* SMMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F61921D76BBBF00ED7A68 /* SMMessagesViewController.m */; };
+		700F619A1D76BBBF00ED7A68 /* SMSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F61931D76BBBF00ED7A68 /* SMSettingsViewController.h */; };
+		700F619B1D76BBBF00ED7A68 /* SMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F61941D76BBBF00ED7A68 /* SMSettingsViewController.m */; };
 		7294D528D94537B52769102DAC6178CB /* Pods-ZDSMPlugin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E94020E5ECB75B84E8346BB7DC4390 /* Pods-ZDSMPlugin_Example-dummy.m */; };
 		839F825A9FE1CB78826010C87FD72599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9977E13AB76B309A258DB8D38C0787E4 /* ZDSMPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 235D428D2E2E044B43798F52C47FB7A0 /* ZDSMPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -132,10 +144,8 @@
 		60B5135824B0DA228A48C88E0BBA1832 /* Pods-ZDSMPlugin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDSMPlugin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		62FFB8B5644BA818DE4A9207DEF20A76 /* Pods-ZDSMPlugin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDSMPlugin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6331097882F77335433A33BA48094C3F /* Pods-ZDSMPlugin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZDSMPlugin_Example.modulemap"; sourceTree = "<group>"; };
-		700F60AB1D76AF8C00ED7A68 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		700F60AD1D76AF8C00ED7A68 /* SMCircularImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCircularImageView.h; sourceTree = "<group>"; };
 		700F60AE1D76AF8C00ED7A68 /* SMCircularImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCircularImageView.m; sourceTree = "<group>"; };
-		700F60B01D76AF8C00ED7A68 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		700F60B41D76AF8C00ED7A68 /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
 		700F60B61D76AF8C00ED7A68 /* JSQSystemSoundPlayer+JSQMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSQSystemSoundPlayer+JSQMessages.h"; sourceTree = "<group>"; };
 		700F60B71D76AF8C00ED7A68 /* JSQSystemSoundPlayer+JSQMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSQSystemSoundPlayer+JSQMessages.m"; sourceTree = "<group>"; };
@@ -237,7 +247,24 @@
 		700F611D1D76AF8C00ED7A68 /* UIActivityIndicator-for-SDWebImage.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIActivityIndicator-for-SDWebImage.podspec"; sourceTree = "<group>"; };
 		700F611E1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIActivityIndicatorForSDWebImage.h"; sourceTree = "<group>"; };
 		700F611F1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIActivityIndicatorForSDWebImage.m"; sourceTree = "<group>"; };
-		700F61211D76AF8C00ED7A68 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		700F617E1D76B9EE00ED7A68 /* chat_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_box@2x.png"; sourceTree = "<group>"; };
+		700F617F1D76B9EE00ED7A68 /* icon_widget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_widget.png; sourceTree = "<group>"; };
+		700F61801D76B9EE00ED7A68 /* icon_widget@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_widget@2x.png"; sourceTree = "<group>"; };
+		700F61811D76B9EE00ED7A68 /* icon_widget@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_widget@3x.png"; sourceTree = "<group>"; };
+		700F61821D76BBB000ED7A68 /* ScreenMeetChatContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMeetChatContainer.h; sourceTree = "<group>"; };
+		700F61831D76BBB000ED7A68 /* ScreenMeetChatContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenMeetChatContainer.m; sourceTree = "<group>"; };
+		700F61841D76BBB000ED7A68 /* ScreenMeetChatWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMeetChatWidget.h; sourceTree = "<group>"; };
+		700F61851D76BBB000ED7A68 /* ScreenMeetChatWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenMeetChatWidget.m; sourceTree = "<group>"; };
+		700F61861D76BBB000ED7A68 /* ScreenMeetToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMeetToast.h; sourceTree = "<group>"; };
+		700F61871D76BBB000ED7A68 /* ScreenMeetToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenMeetToast.m; sourceTree = "<group>"; };
+		700F618E1D76BBBF00ED7A68 /* SMAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAccountViewController.h; sourceTree = "<group>"; };
+		700F618F1D76BBBF00ED7A68 /* SMAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAccountViewController.m; sourceTree = "<group>"; };
+		700F61901D76BBBF00ED7A68 /* SMAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMAccountViewController.xib; sourceTree = "<group>"; };
+		700F61911D76BBBF00ED7A68 /* SMMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMessagesViewController.h; sourceTree = "<group>"; };
+		700F61921D76BBBF00ED7A68 /* SMMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMessagesViewController.m; sourceTree = "<group>"; };
+		700F61931D76BBBF00ED7A68 /* SMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSettingsViewController.h; sourceTree = "<group>"; };
+		700F61941D76BBBF00ED7A68 /* SMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSettingsViewController.m; sourceTree = "<group>"; };
+		700F61951D76BBBF00ED7A68 /* SMSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMSettingsViewController.xib; sourceTree = "<group>"; };
 		73236880A64888AC2690A32F22B6E913 /* ZDSMPlugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDSMPlugin-dummy.m"; sourceTree = "<group>"; };
 		74B394EE132248B7F627CCE46FF3E8A8 /* Pods-ZDSMPlugin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSMPlugin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		74C86BE729144CF12C56C52B52B585BC /* Pods-ZDSMPlugin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDSMPlugin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -345,7 +372,10 @@
 		700F60AA1D76AF8C00ED7A68 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				700F60AB1D76AF8C00ED7A68 /* .gitkeep */,
+				700F617E1D76B9EE00ED7A68 /* chat_box@2x.png */,
+				700F617F1D76B9EE00ED7A68 /* icon_widget.png */,
+				700F61801D76B9EE00ED7A68 /* icon_widget@2x.png */,
+				700F61811D76B9EE00ED7A68 /* icon_widget@3x.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -362,7 +392,14 @@
 		700F60AF1D76AF8C00ED7A68 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				700F60B01D76AF8C00ED7A68 /* .gitkeep */,
+				700F618E1D76BBBF00ED7A68 /* SMAccountViewController.h */,
+				700F618F1D76BBBF00ED7A68 /* SMAccountViewController.m */,
+				700F61901D76BBBF00ED7A68 /* SMAccountViewController.xib */,
+				700F61911D76BBBF00ED7A68 /* SMMessagesViewController.h */,
+				700F61921D76BBBF00ED7A68 /* SMMessagesViewController.m */,
+				700F61931D76BBBF00ED7A68 /* SMSettingsViewController.h */,
+				700F61941D76BBBF00ED7A68 /* SMSettingsViewController.m */,
+				700F61951D76BBBF00ED7A68 /* SMSettingsViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -550,7 +587,12 @@
 		700F61201D76AF8C00ED7A68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				700F61211D76AF8C00ED7A68 /* .gitkeep */,
+				700F61821D76BBB000ED7A68 /* ScreenMeetChatContainer.h */,
+				700F61831D76BBB000ED7A68 /* ScreenMeetChatContainer.m */,
+				700F61841D76BBB000ED7A68 /* ScreenMeetChatWidget.h */,
+				700F61851D76BBB000ED7A68 /* ScreenMeetChatWidget.m */,
+				700F61861D76BBB000ED7A68 /* ScreenMeetToast.h */,
+				700F61871D76BBB000ED7A68 /* ScreenMeetToast.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -641,6 +683,9 @@
 				700F61771D76AF8C00ED7A68 /* JSQMessagesToolbarContentView.h in Headers */,
 				700F61551D76AF8C00ED7A68 /* JSQMessageBubbleImageDataSource.h in Headers */,
 				700F61381D76AF8C00ED7A68 /* JSQMessagesBubbleImageFactory.h in Headers */,
+				700F618C1D76BBB000ED7A68 /* ScreenMeetToast.h in Headers */,
+				700F61881D76BBB000ED7A68 /* ScreenMeetChatContainer.h in Headers */,
+				700F61961D76BBBF00ED7A68 /* SMAccountViewController.h in Headers */,
 				700F61601D76AF8C00ED7A68 /* JSQVideoMediaItem.h in Headers */,
 				700F61321D76AF8C00ED7A68 /* JSQMessagesKeyboardController.h in Headers */,
 				700F61751D76AF8C00ED7A68 /* JSQMessagesMediaPlaceholderView.h in Headers */,
@@ -655,6 +700,8 @@
 				700F614E1D76AF8C00ED7A68 /* JSQLocationMediaItem.h in Headers */,
 				700F616B1D76AF8C00ED7A68 /* JSQMessagesCollectionViewCellOutgoing.h in Headers */,
 				700F614C1D76AF8C00ED7A68 /* JSQAudioMediaItem.h in Headers */,
+				700F619A1D76BBBF00ED7A68 /* SMSettingsViewController.h in Headers */,
+				700F61981D76BBBF00ED7A68 /* SMMessagesViewController.h in Headers */,
 				700F613A1D76AF8C00ED7A68 /* JSQMessagesMediaViewBubbleImageMasker.h in Headers */,
 				700F61301D76AF8C00ED7A68 /* UIView+JSQMessages.h in Headers */,
 				700F615E1D76AF8C00ED7A68 /* JSQPhotoMediaItem.h in Headers */,
@@ -664,6 +711,7 @@
 				700F61221D76AF8C00ED7A68 /* SMCircularImageView.h in Headers */,
 				700F61631D76AF8C00ED7A68 /* JSQMessagesCellTextView.h in Headers */,
 				700F61711D76AF8C00ED7A68 /* JSQMessagesLabel.h in Headers */,
+				700F618A1D76BBB000ED7A68 /* ScreenMeetChatWidget.h in Headers */,
 				700F61731D76AF8C00ED7A68 /* JSQMessagesLoadEarlierHeaderView.h in Headers */,
 				700F612C1D76AF8C00ED7A68 /* UIDevice+JSQMessages.h in Headers */,
 				700F617C1D76AF8C00ED7A68 /* UIImageView+UIActivityIndicatorForSDWebImage.h in Headers */,
@@ -799,6 +847,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700F61971D76BBBF00ED7A68 /* SMAccountViewController.m in Sources */,
+				700F618D1D76BBB000ED7A68 /* ScreenMeetToast.m in Sources */,
 				700F61251D76AF8C00ED7A68 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */,
 				700F617A1D76AF8C00ED7A68 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
 				700F61451D76AF8C00ED7A68 /* JSQMessagesBubblesSizeCalculator.m in Sources */,
@@ -824,20 +874,24 @@
 				700F61331D76AF8C00ED7A68 /* JSQMessagesKeyboardController.m in Sources */,
 				700F61781D76AF8C00ED7A68 /* JSQMessagesToolbarContentView.m in Sources */,
 				700F617B1D76AF8C00ED7A68 /* README.md in Sources */,
+				700F61891D76BBB000ED7A68 /* ScreenMeetChatContainer.m in Sources */,
 				700F61591D76AF8C00ED7A68 /* JSQMessagesAvatarImage.m in Sources */,
 				700F612D1D76AF8C00ED7A68 /* UIDevice+JSQMessages.m in Sources */,
 				700F61511D76AF8C00ED7A68 /* JSQMediaItem.m in Sources */,
+				700F619B1D76BBBF00ED7A68 /* SMSettingsViewController.m in Sources */,
 				700F61761D76AF8C00ED7A68 /* JSQMessagesMediaPlaceholderView.m in Sources */,
 				700F61741D76AF8C00ED7A68 /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
 				700F61491D76AF8C00ED7A68 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */,
 				700F615F1D76AF8C00ED7A68 /* JSQPhotoMediaItem.m in Sources */,
 				700F61391D76AF8C00ED7A68 /* JSQMessagesBubbleImageFactory.m in Sources */,
+				700F618B1D76BBB000ED7A68 /* ScreenMeetChatWidget.m in Sources */,
 				700F613F1D76AF8C00ED7A68 /* JSQMessagesToolbarButtonFactory.m in Sources */,
 				700F612B1D76AF8C00ED7A68 /* UIColor+JSQMessages.m in Sources */,
 				700F615B1D76AF8C00ED7A68 /* JSQMessagesBubbleImage.m in Sources */,
 				700F61681D76AF8C00ED7A68 /* JSQMessagesCollectionViewCell.m in Sources */,
 				700F616A1D76AF8C00ED7A68 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				700F614B1D76AF8C00ED7A68 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
+				700F61991D76BBBF00ED7A68 /* SMMessagesViewController.m in Sources */,
 				700F61231D76AF8C00ED7A68 /* SMCircularImageView.m in Sources */,
 				700F61371D76AF8C00ED7A68 /* JSQMessagesAvatarImageFactory.m in Sources */,
 				700F61531D76AF8C00ED7A68 /* JSQMessage.m in Sources */,
