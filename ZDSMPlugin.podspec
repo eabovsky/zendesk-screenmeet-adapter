@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
     s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'QuartzCore', 'CoreGraphics', 'ImageIO', 'Foundation'
 
     s.dependency 'JSQSystemSoundPlayer', '4.4.0'
-    s.dependency 'UIActivityIndicator-for-SDWebImage', '1.2'
     s.dependency 'MBProgressHUD', '1.0'
+    s.dependency 'SDWebImage', '3.7'
 
 end

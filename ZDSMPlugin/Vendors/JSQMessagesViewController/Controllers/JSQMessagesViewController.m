@@ -39,8 +39,9 @@
 #import "UIDevice+JSQMessages.h"
 #import "NSBundle+JSQMessages.h"
 
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
+
 #import <objc/runtime.h>
-#import <UIActivityIndicator-for-SDWebImage/UIImageView+UIActivityIndicatorForSDWebImage.h>
 
 
 // Fixes rdar://26295020
